@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20b57f68-e2dd-4148-b8ad-3764149f38da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 5 - Vending Machine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 5 - Vending Machine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntegrationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="20b57f68-e2dd-4148-b8ad-3764149f38da" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,17 +11,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1524460719188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>VendingMachine</FILTER>
-      <FILTER>StockItem</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_dispense_selection_exact_change.ic" NAME="UnitTests.test_dispense_selection_exact_change Coverage Results" MODIFIED="1524457158931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Homework_5___Vending_Machine$UnitTests_test_insert_single_money.ic" NAME="UnitTests.test_insert_single_money Coverage Results" MODIFIED="1523991794673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>StockItem</FILTER>
-      <FILTER>VendingMachine</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_status.ic" NAME="UnitTests.test_insert_status Coverage Results" MODIFIED="1524450860728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Homework5$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524460753966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_multiple_monies.ic" NAME="UnitTests.test_insert_multiple_monies Coverage Results" MODIFIED="1524448443135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_single_money.ic" NAME="UnitTests.test_insert_single_money Coverage Results" MODIFIED="1524448424954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
@@ -33,21 +20,30 @@
       <FILTER>VendingMachine</FILTER>
       <FILTER>StockItem</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/640_whitebox_testing$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524510390729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1524523421669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_multiple_monies.ic" NAME="UnitTests.test_insert_multiple_monies Coverage Results" MODIFIED="1524448443135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Homework5$Main.ic" NAME="Main Coverage Results" MODIFIED="1524448686244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Homework5$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524523320726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StockItem</FILTER>
+      <FILTER>VendingMachine</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_dispense_selection_exact_change.ic" NAME="UnitTests.test_dispense_selection_exact_change Coverage Results" MODIFIED="1524457158931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_status.ic" NAME="UnitTests.test_insert_status Coverage Results" MODIFIED="1524450860728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/640_whitebox_testing$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1524509846486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/640_whitebox_testing$IntegrationTests_test_start_and_insert_money.ic" NAME="IntegrationTests.test_start_and_insert_money Coverage Results" MODIFIED="1524509660800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests_test_insert_single_money.ic" NAME="UnitTests.test_insert_single_money Coverage Results" MODIFIED="1524448424954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework_5___Vending_Machine$UnitTests_test_insert_single_money.ic" NAME="UnitTests.test_insert_single_money Coverage Results" MODIFIED="1523991794673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/640_whitebox_testing$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524510390729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StockItem</FILTER>
+      <FILTER>VendingMachine</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Homework5$Main.ic" NAME="Main Coverage Results" MODIFIED="1524448686244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -56,8 +52,8 @@
           <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/UnitTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+                <state relative-caret-position="231">
+                  <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -68,8 +64,8 @@
           <file leaf-file-name="IntegrationTests.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/IntegrationTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
-                  <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+                <state relative-caret-position="-1028">
+                  <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#241#242#0" expanded="true" />
@@ -117,8 +113,8 @@
           <file leaf-file-name="VendingMachine.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/VendingMachine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="757">
-                  <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+                <state relative-caret-position="743">
+                  <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -156,8 +152,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="829" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1754" />
+    <option name="y" value="-10" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -191,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTests">
+  <component name="RunManager" selected="JUnit.UnitTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -318,6 +314,33 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="UnitTests" type="JUnit" factoryName="JUnit">
+      <module name="Homework 5 - Vending Machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StockItem" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="VendingMachine" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -358,6 +381,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.IntegrationTests" />
+      <item itemvalue="JUnit.UnitTests" />
       <item itemvalue="JUnit.AllTests" />
       <item itemvalue="JUnit.IntegrationTests.test_dispense_selection_and_dispense_change" />
       <item itemvalue="JUnit.IntegrationTests.test_start_and_insert_money" />
@@ -394,19 +418,11 @@
       <workItem from="1524351714565" duration="1418000" />
       <workItem from="1524448331047" duration="9983000" />
       <workItem from="1524508478148" duration="2087000" />
+      <workItem from="1524522069386" duration="1433000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegrationTests_test_start_and_insert_money - 2018.04.23 at 13h 54m 14s.xml">
-      <configuration name="IntegrationTests.test_start_and_insert_money" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTests_test_start_and_insert_money - 2018.04.23 at 13h 54m 22s.xml">
-      <configuration name="IntegrationTests.test_start_and_insert_money" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTests - 2018.04.23 at 13h 54m 27s.xml">
-      <configuration name="IntegrationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllTests - 2018.04.23 at 13h 57m 15s.xml">
       <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
@@ -428,12 +444,21 @@
     <history-entry file="IntegrationTests - 2018.04.23 at 14h 06m 32s.xml">
       <configuration name="IntegrationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntegrationTests - 2018.04.23 at 17h 36m 38s.xml">
+      <configuration name="IntegrationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests - 2018.04.23 at 17h 42m 01s.xml">
+      <configuration name="IntegrationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests - 2018.04.23 at 17h 43m 42s.xml">
+      <configuration name="UnitTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16950000" />
+    <option name="totallyTimeSpent" value="18383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,7 +471,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -461,9 +486,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,6 +503,53 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UnitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StockItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -640,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="-1028">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
@@ -656,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+        <state relative-caret-position="231">
+          <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
