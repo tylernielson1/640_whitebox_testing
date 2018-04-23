@@ -30,7 +30,7 @@ public class IntegrationTests {
     }
 
     @Test
-    void test_insert_money_and_dispense() {
+    void test_insert_money_and_select() {
         double expectedBalance = 2;
         VendingMachine.State expectedState = VendingMachine.State.DISPENSE;
         ByteArrayInputStream in = new ByteArrayInputStream(("1\n").getBytes());
@@ -45,5 +45,19 @@ public class IntegrationTests {
         System.setIn(in3);
         vendingMachine.select();
         assertEquals(expectedState, vendingMachine.status);
+    }
+
+    @Test
+    void test_select_and_dispense() {
+        VendingMachine.State expectedState = VendingMachine.State.DISPENSE;
+        double expectedCount = 6;
+        vendingMachine.balance = 0.75;
+        ByteArrayInputStream in = new ByteArrayInputStream(("3\n").getBytes());
+        System.setIn(in);
+        vendingMachine.select();
+        assertEquals(expectedState, vendingMachine.status);
+
+        vendingMachine.dispenseSelection();
+        assertEquals(expectedCount, vendingMachine.stock.get(3).count);
     }
 }

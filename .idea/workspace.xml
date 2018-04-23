@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20b57f68-e2dd-4148-b8ad-3764149f38da" name="Default" comment="" />
+    <list default="true" id="20b57f68-e2dd-4148-b8ad-3764149f38da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/IntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntegrationTests.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +18,11 @@
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Homework5$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1524457427320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework5$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1524460719188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>VendingMachine</FILTER>
       <FILTER>StockItem</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Homework5$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524460248782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework5$IntegrationTests.ic" NAME="IntegrationTests Coverage Results" MODIFIED="1524460753966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StockItem</FILTER>
       <FILTER>VendingMachine</FILTER>
     </SUITE>
@@ -51,8 +53,8 @@
           <file leaf-file-name="IntegrationTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/IntegrationTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+                <state relative-caret-position="629">
+                  <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#241#242#0" expanded="true" />
@@ -100,7 +102,7 @@
           <file leaf-file-name="VendingMachine.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/VendingMachine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
+                <state relative-caret-position="-357">
                   <caret line="93" column="40" selection-start-line="93" selection-start-column="16" selection-end-line="94" selection-end-column="35" />
                 </state>
               </provider>
@@ -194,10 +196,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IntegrationTests" />
       <option name="METHOD_NAME" value="test_select_and_dispense_" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IntegrationTests.test_select_and_dispense" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework 5 - Vending Machine" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTests" />
+      <option name="METHOD_NAME" value="test_select_and_dispense" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -265,23 +284,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UnitTests.test_invalid_selection_in_select_try" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework 5 - Vending Machine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests" />
-      <option name="METHOD_NAME" value="test_invalid_selection_in_select_try" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -322,18 +324,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UnitTests" />
-      <item itemvalue="JUnit.UnitTests.test_invalid_selection_in_select_try" />
       <item itemvalue="JUnit.UnitTests.test_dispense_selection_exact_change" />
       <item itemvalue="JUnit.UnitTests.test_dispense_selection_with_change" />
       <item itemvalue="JUnit.IntegrationTests" />
+      <item itemvalue="JUnit.IntegrationTests.test_select_and_dispense" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IntegrationTests" />
         <item itemvalue="JUnit.UnitTests" />
+        <item itemvalue="JUnit.IntegrationTests.test_select_and_dispense" />
         <item itemvalue="JUnit.UnitTests.test_dispense_selection_with_change" />
         <item itemvalue="JUnit.UnitTests.test_dispense_selection_exact_change" />
-        <item itemvalue="JUnit.UnitTests.test_invalid_selection_in_select_try" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +357,7 @@
       <workItem from="1523989407356" duration="2567000" />
       <workItem from="1524347249618" duration="895000" />
       <workItem from="1524351714565" duration="1418000" />
-      <workItem from="1524448331047" duration="9623000" />
+      <workItem from="1524448331047" duration="9983000" />
     </task>
     <servers />
   </component>
@@ -392,7 +394,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14503000" />
+    <option name="totallyTimeSpent" value="14863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -566,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="629">
+          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
